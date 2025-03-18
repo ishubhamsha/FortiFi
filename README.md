@@ -1,10 +1,10 @@
-# DeFi Micro-Lending Platform
+# DeFi Micro-Lending Financial Platform
 
-A decentralized micro-lending platform built on Base Sepolia with AI-powered credit scoring.
+A decentralized micro-lending financial platform.
 
 ## Features
 
-- AI-powered credit scoring using DistilBERT
+- AI-powered credit scoring using On-Chain Data analysis
 - DAO governance for loan approval
 - Decentralized insurance pool
 - Smart contract-based lending platform
@@ -42,10 +42,10 @@ uvicorn main:app --reload
 ### 2. Smart Contract Deployment
 
 1. Install Hardhat and dependencies
-2. Configure your Base Sepolia RPC URL and private key
+2. Configure your RPC URL and private key
 3. Deploy the contract:
 ```bash
-npx hardhat run scripts/deploy.js --network base-sepolia
+npx hardhat run scripts/deploy.js --network 
 ```
 
 ### 3. Frontend Setup
@@ -59,7 +59,7 @@ npm start
 
 ## Usage
 
-1. Connect your MetaMask wallet (make sure you're on Base Sepolia network)
+1. Connect your MetaMask wallet 
 2. Fill out the loan application form
 3. The AI system will evaluate your credit score
 4. DAO members can vote on your loan request
@@ -75,7 +75,6 @@ npm start
 
 ## AI Credit Scoring
 
-The platform uses DistilBERT to analyze:
 - User responses to predefined questions
 - Historical on-chain data
 - DAO member scores
