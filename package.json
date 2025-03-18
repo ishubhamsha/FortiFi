@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "framer-motion": "^12.4.10",
+    "hardhat": "^2.22.18",
+    "three": "^0.174.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0"
+  }
+}

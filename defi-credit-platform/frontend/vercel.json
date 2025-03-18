@@ -1,0 +1,27 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
+  "framework": "create-react-app",
+  "routes": [
+    { "handle": "filesystem" },
+    {
+      "src": "/manifest.json",
+      "dest": "/manifest.json"
+    },
+    {
+      "src": "/favicon.ico",
+      "dest": "/favicon.ico"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ],
+  "env": {
+    "REACT_APP_NETWORK_ID": "11155111",
+    "REACT_APP_NETWORK_NAME": "Sepolia",
+    "REACT_APP_LENDING_PLATFORM_ADDRESS": "0x03A54407c196c56FA54732FfBFF1FDfaE6b79ADb",
+    "REACT_APP_LENDING_TOKEN_ADDRESS": "0x8921c346187DD41519e50d4Ba0c0A82ED9908C47",
+    "REACT_APP_PRICE_ORACLE_ADDRESS": "0x7F204adCaff8cAF7bCeC9A68D80c2DBFa8823802"
+  }
+}
